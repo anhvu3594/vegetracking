@@ -1,10 +1,12 @@
 package com.vegetracking;
 
 import android.support.v7.app.ActionBarActivity;
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+@SuppressLint("NewApi")
 public class MainActivity extends ActionBarActivity {
 
 	@Override
